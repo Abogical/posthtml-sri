@@ -11,24 +11,25 @@
   },
   "scripts": {
     "version": "conventional-changelog -i changelog.md -s -r 0 && git add changelog.md",
-    "test": "xo && nyc ava",
-    "pretest": "clinton"
+		"test": "xo && nyc ava"
   },
   "keywords": [
     "html",
     "posthtml",
     "posthtml-plugin"
   ],
-  "dependencies": {},
+	"dependencies": {
+		"ssri": "^8.0.0"
+	},
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-angular": "^11.0.0",
     "ava": "^3.13.0",
-    "clinton": "^0.14.0",
     "conventional-changelog-cli": "^2.0.31",
     "husky": "^4.3.0",
     "nyc": "^15.1.0",
     "posthtml": "^0.13.3",
+		"prettier": "^2.1.2",
     "xo": "^0.33.1"
   }
 }
