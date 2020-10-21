@@ -1,0 +1,7 @@
+{
+	"rules": {
+		"promise/prefer-await-to-then": "off"
+	},
+	"prettier": true,
+	"ignores": ["test/fixtures/*.js"]
+}
