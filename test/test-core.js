@@ -8,13 +8,13 @@ const posthtml = require('posthtml');
 const fixtures = path.join(__dirname, 'fixtures');
 
 test('basic', t => {
-  return compare(t, 'basic');
+	return compare(t, 'basic');
 });
 
 async function compare(t, name) {
-  const source = readFileSync(path.join(fixtures, `${name}.html`), 'utf8');
-  const expected = readFileSync(path.join(fixtures, `${name}.expected.html`), 'utf8');
-  const {html} = await posthtml([plugin()]).process(source);
+	const source = readFileSync(path.join(fixtures, `${name}.html`), 'utf8');
+	const expected = readFileSync(path.join(fixtures, `${name}.expected.html`), 'utf8');
+	const {html} = await posthtml([plugin({basePath: path.join(__dirname, 'fixtures')})]).process(source);
 
-  t.deepEqual(html, expected);
+	t.deepEqual(html, expected);
 }
