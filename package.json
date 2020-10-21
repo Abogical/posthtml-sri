@@ -1,10 +1,10 @@
 {
-  "name": "plugin_name",
-  "version": "0.0.0",
+	"name": "posthtml-sri",
+	"version": "0.0.1",
 	"description": "PostHTML plugin description",
 	"license": "MIT",
-  "repository": "USER_NAME/PLUGIN_NAME",
-  "author": "USER_NAME",
+	"repository": "https://gitlab.com/abogical/posthtml-sri",
+	"author": "abogical",
 	"main": "lib",
 	"engines": {
 		"node": ">=10"
