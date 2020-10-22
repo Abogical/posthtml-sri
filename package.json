@@ -21,6 +21,7 @@
 		"posthtml-plugin"
 	],
 	"dependencies": {
+		"node-fetch": "^2.6.1",
 		"ssri": "^8.0.0"
 	},
 	"devDependencies": {
