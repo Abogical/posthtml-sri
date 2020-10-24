@@ -4,7 +4,7 @@
 	"description": "PostHTML plugin description",
 	"license": "MIT",
 	"repository": "https://gitlab.com/abogical/posthtml-sri",
-	"author": "abogical",
+	"author": "Abdelrahman Abdelrahman <abogical@gmail.com>",
 	"main": "lib",
 	"engines": {
 		"node": ">=10"
