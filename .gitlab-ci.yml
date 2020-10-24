@@ -6,14 +6,9 @@ cache:
     - node_modules/
 
 test:
-	image: node:$NODE_VERSION
-	script:
-		- npm t
-	parallel:
-		matrix:
-			- NODE_VERSION:
-				- 10
-				- 11
-				- 12
-				- 13
-				- 14
+  image: node:$NODE_VERSION
+  script:
+    - npm t
+  parallel:
+    matrix:
+      - NODE_VERSION: [10, 11, 12, 13, 14]

@@ -12,6 +12,9 @@ insert_final_newline = true
 [{package.json,*.yml,*.jade,*.pss,*.css,*.js,*.md,.*,*.ts}]
 indent_size = 2
 
+[*.yml]
+indent_style = space
+
 [{changelog.md,.*}]
 insert_final_newline = false
 
