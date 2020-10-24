@@ -1,5 +1,12 @@
+## <small>1.0.3 (2020-10-24)</small>
+
+* build: exclude unnecessary files from package ([9e82030](https://gitlab.com/abogical/posthtml-sri/commit/9e82030))
+
+
+
 ## <small>1.0.2 (2020-10-24)</small>
 
+* 1.0.2 ([2aa7bf3](https://gitlab.com/abogical/posthtml-sri/commit/2aa7bf3))
 * docs: update package description ([35f1353](https://gitlab.com/abogical/posthtml-sri/commit/35f1353))
 
 
