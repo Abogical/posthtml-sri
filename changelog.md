@@ -1,7 +1,13 @@
-## 1.0.1 (2020-10-24)
+## <small>1.0.2 (2020-10-24)</small>
 
-* 1.0.0 ([378c3d6](https://gitlab.com/abogical/posthtml-sri/commit/378c3d6))
+* docs: update package description ([35f1353](https://gitlab.com/abogical/posthtml-sri/commit/35f1353))
+
+
+
+## <small>1.0.1 (2020-10-24)</small>
+
 * 1.0.0 ([3004692](https://gitlab.com/abogical/posthtml-sri/commit/3004692))
+* 1.0.1 ([0430596](https://gitlab.com/abogical/posthtml-sri/commit/0430596))
 * docs: add author and repository info on package.json ([89be79f](https://gitlab.com/abogical/posthtml-sri/commit/89be79f))
 * docs: add homeapage and more specific tags ([19f37f0](https://gitlab.com/abogical/posthtml-sri/commit/19f37f0))
 * docs: fill readme template ([78bbe0a](https://gitlab.com/abogical/posthtml-sri/commit/78bbe0a))
