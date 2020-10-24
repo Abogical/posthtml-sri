@@ -4,6 +4,7 @@
 	"description": "PostHTML plugin description",
 	"license": "MIT",
 	"repository": "https://gitlab.com/abogical/posthtml-sri",
+	"homepage": "https://gitlab.com/abogical/posthtml-sri",
 	"author": "Abdelrahman Abdelrahman <abogical@gmail.com>",
 	"main": "lib",
 	"engines": {
@@ -18,7 +19,10 @@
 	"keywords": [
 		"html",
 		"posthtml",
-		"posthtml-plugin"
+		"posthtml-plugin",
+		"sri",
+		"subresource integrity",
+		"security"
 	],
 	"dependencies": {
 		"node-fetch": "^2.6.1",
