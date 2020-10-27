@@ -1,0 +1,21 @@
+{
+	"extends": ["config:base", "schedule:earlyMondays"],
+	"packageRules": [{
+			"packagePatterns": [
+				"*"
+			],
+			"minor": {
+				"groupName": "all non-major dependencies",
+				"groupSlug": "all-minor-patch",
+				"automerge": true
+			}
+		},
+		{
+			"packagePatterns": [
+				"*"
+			],
+			"groupName": "all major dependencies",
+			"groupSlug": "all-major"
+		}
+	]
+}
