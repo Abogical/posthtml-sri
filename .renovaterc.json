@@ -1,5 +1,7 @@
 {
 	"extends": ["config:base", "schedule:earlyMondays"],
+	"commitMessagePrefix": "build: ",
+	"commitMessageAction": "update",
 	"packageRules": [{
 			"packagePatterns": [
 				"*"
