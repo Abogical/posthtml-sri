@@ -1,5 +1,16 @@
+## <small>1.0.4 (2020-10-29)</small>
+
+* fix: ignore local files if basePath is not provided ([06cd0bd](https://gitlab.com/abogical/posthtml-sri/commit/06cd0bd))
+* ci: add renovate bot config to automatically update dependencies ([e3e66ce](https://gitlab.com/abogical/posthtml-sri/commit/e3e66ce))
+* ci: disable ava automatic CI jobs parrallelization ([a444db8](https://gitlab.com/abogical/posthtml-sri/commit/a444db8)), closes [#1](https://gitlab.com/abogical/posthtml-sri/issues/1)
+* ci: set renovate bot to commit in the conventional style ([bde7f93](https://gitlab.com/abogical/posthtml-sri/commit/bde7f93))
+* ci: test on node version 15 ([a981902](https://gitlab.com/abogical/posthtml-sri/commit/a981902))
+
+
+
 ## <small>1.0.3 (2020-10-24)</small>
 
+* 1.0.3 ([8f3dcb6](https://gitlab.com/abogical/posthtml-sri/commit/8f3dcb6))
 * build: exclude unnecessary files from package ([9e82030](https://gitlab.com/abogical/posthtml-sri/commit/9e82030))
 
 

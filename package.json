@@ -1,6 +1,6 @@
 {
 	"name": "posthtml-sri",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "PostHTML subresource integrity plugin",
 	"license": "MIT",
 	"repository": "https://gitlab.com/abogical/posthtml-sri",
