@@ -8,6 +8,9 @@ cache:
 test:
   image: node:$NODE_VERSION
   script:
+    # Workaround to ava bug: https://github.com/avajs/ava/issues/2415
+    - unset CI_NODE_INDEX
+    - unset CI_NODE_TOTAL
     - npm t
   parallel:
     matrix:
