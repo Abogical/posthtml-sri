@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"repository": "https://gitlab.com/abogical/posthtml-sri",
 	"homepage": "https://gitlab.com/abogical/posthtml-sri",
-	"author": "Abdelrahman Abdelrahman <abogical@gmail.com>",
+	"author": "Abdelrahman Abdelrahman <npm+posthtml-sri@abogic.al>",
 	"main": "lib",
 	"engines": {
 		"node": ">=10"
