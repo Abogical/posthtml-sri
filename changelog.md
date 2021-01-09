@@ -1,5 +1,22 @@
+## <small>1.0.6 (2021-01-09)</small>
+
+* Revert "1.0.5" ([2abc145](https://gitlab.com/abogical/posthtml-sri/commit/2abc145))
+* build: remove package-lock.json ([f4c5892](https://gitlab.com/abogical/posthtml-sri/commit/f4c5892))
+
+
+
+## <small>1.0.5 (2020-11-11)</small>
+
+* 1.0.5 ([f74f33b](https://gitlab.com/abogical/posthtml-sri/commit/f74f33b))
+* fix: skip elements with empty source attributes ([c9eae5b](https://gitlab.com/abogical/posthtml-sri/commit/c9eae5b))
+* ci: explicitly disable pinning dependencies ([0694137](https://gitlab.com/abogical/posthtml-sri/commit/0694137))
+* ci: use js-lib renovate config to avoid pinning ([d71ba3a](https://gitlab.com/abogical/posthtml-sri/commit/d71ba3a))
+
+
+
 ## <small>1.0.4 (2020-10-29)</small>
 
+* 1.0.4 ([b00f804](https://gitlab.com/abogical/posthtml-sri/commit/b00f804))
 * fix: ignore local files if basePath is not provided ([06cd0bd](https://gitlab.com/abogical/posthtml-sri/commit/06cd0bd))
 * ci: add renovate bot config to automatically update dependencies ([e3e66ce](https://gitlab.com/abogical/posthtml-sri/commit/e3e66ce))
 * ci: disable ava automatic CI jobs parrallelization ([a444db8](https://gitlab.com/abogical/posthtml-sri/commit/a444db8)), closes [#1](https://gitlab.com/abogical/posthtml-sri/issues/1)
