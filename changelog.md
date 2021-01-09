@@ -1,5 +1,14 @@
+## <small>1.0.7 (2021-01-09)</small>
+
+* fix: do not replace existing integrity attributes ([61225bb](https://gitlab.com/abogical/posthtml-sri/commit/61225bb))
+* docs: update email ([90f33ac](https://gitlab.com/abogical/posthtml-sri/commit/90f33ac))
+* test: handle empty source attributes ([675bf9d](https://gitlab.com/abogical/posthtml-sri/commit/675bf9d))
+
+
+
 ## <small>1.0.6 (2021-01-09)</small>
 
+* 1.0.6 ([555d13e](https://gitlab.com/abogical/posthtml-sri/commit/555d13e))
 * Revert "1.0.5" ([2abc145](https://gitlab.com/abogical/posthtml-sri/commit/2abc145))
 * build: remove package-lock.json ([f4c5892](https://gitlab.com/abogical/posthtml-sri/commit/f4c5892))
 
