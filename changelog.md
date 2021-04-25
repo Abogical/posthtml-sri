@@ -1,5 +1,15 @@
+## 1.1.0 (2021-04-25)
+
+* docs: add `cache` and `fetch` to readme ([8072b64](https://gitlab.com/abogical/posthtml-sri/commit/8072b64))
+* docs: add contributor Shiv Jha-Mathur ([a49064b](https://gitlab.com/abogical/posthtml-sri/commit/a49064b))
+* docs: let contributors add their name to package.json ([989ded4](https://gitlab.com/abogical/posthtml-sri/commit/989ded4))
+* feat: add support for caching results in user-provided object ([18a0e1b](https://gitlab.com/abogical/posthtml-sri/commit/18a0e1b))
+
+
+
 ## <small>1.0.7 (2021-01-09)</small>
 
+* 1.0.7 ([cd167a9](https://gitlab.com/abogical/posthtml-sri/commit/cd167a9))
 * fix: do not replace existing integrity attributes ([61225bb](https://gitlab.com/abogical/posthtml-sri/commit/61225bb))
 * docs: update email ([90f33ac](https://gitlab.com/abogical/posthtml-sri/commit/90f33ac))
 * test: handle empty source attributes ([675bf9d](https://gitlab.com/abogical/posthtml-sri/commit/675bf9d))
