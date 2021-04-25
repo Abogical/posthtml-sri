@@ -6,6 +6,9 @@
 	"repository": "https://gitlab.com/abogical/posthtml-sri",
 	"homepage": "https://gitlab.com/abogical/posthtml-sri",
 	"author": "Abdelrahman Abdelrahman <npm+posthtml-sri@abogic.al>",
+	"contributors": [
+		"Shiv Jha-Mathur <shiv@shivjm.in>"
+	],
 	"main": "lib",
 	"engines": {
 		"node": ">=10"
