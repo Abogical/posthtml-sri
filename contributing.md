@@ -35,13 +35,23 @@ Pull requests are the greatest contributions, so be sure they are focused in sco
 	git checkout -b fix/something
 	```
 
-3. Be sure your code follows our practices.
+3. Code your feature or fix
+
+4. Add your name to the contributors list on `package.json` if you haven't already.
+	```
+	"contributors": [
+		...,
+		"Joe Rubble <email@example.com> (example.com)"
+	]
+	```
+
+5. Be sure your code follows our practices.
 	```bash
 	# Test current code
 	npm run test
 	```
 
-4. Push your branch up to your fork:
+6. Push your branch up to your fork:
 	```bash
 	# Push a feature branch
 	git push origin feature/thing
@@ -51,7 +61,7 @@ Pull requests are the greatest contributions, so be sure they are focused in sco
 	git push origin fix/something
 	```
 
-5. Now [open a merge request] with a clear title and description.
+7. Now [open a merge request] with a clear title and description.
 
 [already been reported]: -/issues
 [fork this project]:     -/forks/new
