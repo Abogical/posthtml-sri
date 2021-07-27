@@ -3,6 +3,7 @@ include:
 
 before_script:
   - npm ci
+  - npm run build
 
 cache:
   paths:

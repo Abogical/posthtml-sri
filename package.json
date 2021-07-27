@@ -9,11 +9,12 @@
 	"contributors": [
 		"Shiv Jha-Mathur <shiv@shivjm.in>"
 	],
-	"main": "lib",
+	"main": "dist",
 	"engines": {
 		"node": ">=10"
 	},
 	"scripts": {
+		"build": "tsc",
 		"version": "conventional-changelog -i changelog.md -s -r 0 && git add changelog.md",
 		"test": "xo && nyc ava",
 		"lint": "xo",
@@ -34,12 +35,14 @@
 	"devDependencies": {
 		"@commitlint/cli": "^11.0.0",
 		"@commitlint/config-angular": "^11.0.0",
+		"@types/node-fetch": "^2.5.12",
 		"ava": "^3.13.0",
 		"conventional-changelog-cli": "^2.0.31",
 		"husky": "^4.3.0",
 		"nyc": "^15.1.0",
 		"posthtml": "^0.13.3",
 		"prettier": "^2.1.2",
+		"typescript": "^3.9.7",
 		"xo": "^0.33.1"
 	}
 }
