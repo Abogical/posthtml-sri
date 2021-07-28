@@ -1,5 +1,14 @@
+## 1.2.0 (2021-07-28)
+
+* test: build before test ([99c5e46](https://gitlab.com/abogical/posthtml-sri/commit/99c5e46))
+* build: use typescript ([f18d2e6](https://gitlab.com/abogical/posthtml-sri/commit/f18d2e6))
+* ci: add merge request pipelines ([024f778](https://gitlab.com/abogical/posthtml-sri/commit/024f778))
+
+
+
 ## 1.1.0 (2021-04-25)
 
+* 1.1.0 ([6460052](https://gitlab.com/abogical/posthtml-sri/commit/6460052))
 * docs: add `cache` and `fetch` to readme ([8072b64](https://gitlab.com/abogical/posthtml-sri/commit/8072b64))
 * docs: add contributor Shiv Jha-Mathur ([a49064b](https://gitlab.com/abogical/posthtml-sri/commit/a49064b))
 * docs: let contributors add their name to package.json ([989ded4](https://gitlab.com/abogical/posthtml-sri/commit/989ded4))
