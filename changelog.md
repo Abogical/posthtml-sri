@@ -1,5 +1,13 @@
+## <small>1.2.1 (2024-04-16)</small>
+
+* fix: clarify optional arguments in types ([1601015](https://gitlab.com/abogical/posthtml-sri/commit/1601015))
+* fix: fix readme ([f3ad9ea](https://gitlab.com/abogical/posthtml-sri/commit/f3ad9ea))
+
+
+
 ## 1.2.0 (2021-07-28)
 
+* 1.2.0 ([17a3743](https://gitlab.com/abogical/posthtml-sri/commit/17a3743))
 * test: build before test ([99c5e46](https://gitlab.com/abogical/posthtml-sri/commit/99c5e46))
 * build: use typescript ([f18d2e6](https://gitlab.com/abogical/posthtml-sri/commit/f18d2e6))
 * ci: add merge request pipelines ([024f778](https://gitlab.com/abogical/posthtml-sri/commit/024f778))
