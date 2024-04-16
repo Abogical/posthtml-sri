@@ -16,7 +16,7 @@ Before:
 			href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
 			crossorigin="anonymous"
 		/>
-		<script src='./base.js' integrity='sha512-MYHASH'>
+		<script src='./base.js' integrity='sha512-MYHASH'></script>
 	</head>
 </html>
 ```
@@ -28,7 +28,7 @@ After:
 	<head>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous" integrity="sha512-iceXjjbmB2rwoX93Ka6HAHP+B76IY1z0o3h+N1PeDtRSsyeetU3/0QKJqGyPJcX63zysNehggFwMC/bi7dvMig=="></script>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" crossorigin="anonymous" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==">
-		<script src='./base.js' integrity='sha512-MYHASH'>
+		<script src='./base.js' integrity='sha512-MYHASH'></script>
 	</head>
 </html>
 ```
