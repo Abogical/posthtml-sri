@@ -10,9 +10,9 @@ export = ({
 	fetch = nodeFetch
 }: {
 	basePath?: string;
-	algorithms: string[];
-	cache: Record<string, string>;
-	fetch: (url: URL) => Promise<{body: NodeJS.ReadableStream}>;
+	algorithms?: string[];
+	cache?: Record<string, string>;
+	fetch?: (url: URL) => Promise<{body: NodeJS.ReadableStream}>;
 }) => {
 	const posthtmlSri = async tree => {
 		const jobs = [];
