@@ -102,7 +102,7 @@ After:
 
 ### `algorithms`
 
-Array of hash algorithms to use. By default it follows the [ssri] default, currently `['sha512']`.
+Array of hash algorithms to use. By default, it follows the [ssri] default, currently `['sha512']`.
 
 Before:
 
@@ -150,12 +150,13 @@ After:
 
 A regular object mapping paths/URLs to integrity values. If an `src`
 is found in the cache, the cached value will be reused. Only exact
-matches are considered. By default it uses a new empty object.
+matches are considered. By default, it uses a new empty object.
 
 ## `fetch`
 
 A function that takes a URL and returns a `Response`. Defaults to
-[node-fetch](https://www.npmjs.com/package/node-fetch).
+[Node.js' native fetch function].
 
 [subresource integrity (sri)]: https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity
 [ssri]: https://www.npmjs.com/package/ssri
+[Node.js' native fetch function]: https://nodejs.org/en/blog/announcements/v21-release-announce#stable-fetchwebstreams
