@@ -1,5 +1,12 @@
+## 2.0.0 (2024-10-27)
+
+* refactor: upgrade dependencies and use native Node.js fetch ([62507bf](https://gitlab.com/abogical/posthtml-sri/commit/62507bf))
+
+
+
 ## <small>1.2.1 (2024-04-16)</small>
 
+* 1.2.1 ([526bd54](https://gitlab.com/abogical/posthtml-sri/commit/526bd54))
 * fix: clarify optional arguments in types ([1601015](https://gitlab.com/abogical/posthtml-sri/commit/1601015))
 * fix: fix readme ([f3ad9ea](https://gitlab.com/abogical/posthtml-sri/commit/f3ad9ea))
 
