@@ -1,5 +1,12 @@
+## <small>2.0.1 (2024-10-27)</small>
+
+* docs: update readme and clarify fetch use ([2e55ee4](https://gitlab.com/abogical/posthtml-sri/commit/2e55ee4))
+
+
+
 ## 2.0.0 (2024-10-27)
 
+* 2.0.0 ([84541d1](https://gitlab.com/abogical/posthtml-sri/commit/84541d1))
 * refactor: upgrade dependencies and use native Node.js fetch ([62507bf](https://gitlab.com/abogical/posthtml-sri/commit/62507bf))
 
 
