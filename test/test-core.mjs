@@ -1,11 +1,10 @@
-'use strict';
+import {readFileSync} from 'node:fs';
+import path from 'node:path';
+import test from 'ava';
+import posthtml from 'posthtml';
+import plugin from '../dist/index.js';
 
-const test = require('ava');
-const plugin = require('../dist');
-const {readFileSync} = require('fs');
-const path = require('path');
-const posthtml = require('posthtml');
-const fixtures = path.join(__dirname, 'fixtures');
+const fixtures = path.join(import.meta.dirname, 'fixtures');
 
 test('basic', t => {
 	return compare(t, 'basic');
@@ -18,7 +17,7 @@ test('avoid fetching when cached', t => {
 async function compare(t, name) {
 	const source = readFileSync(path.join(fixtures, `${name}.html`), 'utf8');
 	const expected = readFileSync(path.join(fixtures, `${name}.expected.html`), 'utf8');
-	const {html} = await posthtml([plugin({basePath: path.join(__dirname, 'fixtures')})]).process(source);
+	const {html} = await posthtml([plugin({basePath: fixtures})]).process(source);
 
 	t.deepEqual(html, expected);
 }
@@ -38,7 +37,7 @@ async function ensureNoFetch(t, name) {
 
 	const source = readFileSync(path.join(fixtures, `${name}.html`), 'utf8');
 	const expected = readFileSync(path.join(fixtures, `${name}.expected.html`), 'utf8');
-	const {html} = await posthtml([plugin({basePath: path.join(__dirname, 'fixtures'), cache, fetch})]).process(source);
+	const {html} = await posthtml([plugin({basePath: fixtures, cache, fetch})]).process(source);
 
 	t.is(
 		cache['basic.css'],
